@@ -24,5 +24,11 @@ build_property.EnableCodeStyleSeverity =
 [C:/Users/Aleks/RiderProjects/FinnishApp/FinnishApp/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/Aleks/RiderProjects/FinnishApp/FinnishApp/MainWindow.axaml]
+[C:/Users/Aleks/RiderProjects/FinnishApp/FinnishApp/Styles/Styles.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Aleks/RiderProjects/FinnishApp/FinnishApp/Views/MainWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Aleks/RiderProjects/FinnishApp/FinnishApp/Views/WordsPage.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

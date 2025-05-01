@@ -1,0 +1,31 @@
+{
+  "Beginner": [
+    {
+      "Name": "Miesiące",
+      "Words": [
+        { "Polish": "Styczeń",   "Finnish": "tammikuu" },
+        { "Polish": "Luty",      "Finnish": "helmikuu" },
+        { "Polish": "Marzec",    "Finnish": "maaliskuu" },
+        { "Polish": "Kwiecień",  "Finnish": "huhtikuu" },
+        { "Polish": "Maj",       "Finnish": "toukokuu" },
+        { "Polish": "Czerwiec",  "Finnish": "kesäkuu" },
+        { "Polish": "Lipiec",    "Finnish": "heinäkuu" },
+        { "Polish": "Sierpień",  "Finnish": "elokuu" },
+        { "Polish": "Wrzesień",  "Finnish": "syyskuu" },
+        { "Polish": "Październik","Finnish": "lokakuu" },
+        { "Polish": "Listopad",  "Finnish": "marraskuu" },
+        { "Polish": "Grudzień",  "Finnish": "joulukuu" }
+      ]
+    }
+  ],
+  "Intermediate": [
+    {
+      "Name": "Czasowniki",
+      "Words": [
+        { "Polish": "Chodzić",   "Finnish": "kävellä" },
+        { "Polish": "Jeść",      "Finnish": "syödä" }
+      ]
+    }
+  ],
+  "Advanced": []
+}
