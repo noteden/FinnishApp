@@ -1,0 +1,51 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="FinnishApp.Views.Tests.TestsBeginnerCategoriesPage">
+    
+    <Grid Background="#D1FAE5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Nagłówek -->
+        <TextBlock
+            Grid.Row="0"
+            Text="Testy - Początkujący – Wybierz kategorię"
+            FontSize="24"
+            FontWeight="Bold"
+            HorizontalAlignment="Center"
+            Margin="0,20"/>
+
+        <!-- Przewijalny panel z „linkami” -->
+        <Border
+            Grid.Row="1"
+            Background="White"
+            CornerRadius="8"
+            Width="400"
+            Padding="10"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center">
+            <ScrollViewer>
+                <StackPanel x:Name="ItemsPanel" />
+            </ScrollViewer>
+        </Border>
+
+        <!-- Cofnij -->
+        <Button
+            Grid.Row="2"
+            Content="Cofnij"
+            Width="90" Height="40"
+            Background="Red"
+            Foreground="White"
+            HorizontalAlignment="Left"
+            HorizontalContentAlignment="Center"
+            VerticalContentAlignment="Center"
+            Margin="10"
+            x:Name="BackButton"/>
+    </Grid>
+</UserControl>

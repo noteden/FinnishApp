@@ -1,0 +1,68 @@
+<UserControl
+    xmlns="https://github.com/avaloniaui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    x:Class="FinnishApp.Views.TestsPage">
+
+    <Grid Background="#D1FAE5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Nagłówek -->
+        <TextBlock
+            Grid.Row="0"
+            Text="Testy"
+            FontSize="24"
+            FontWeight="Bold"
+            HorizontalAlignment="Center"
+            Margin="0,20"/>
+
+        <!-- Poziomy trudności -->
+        <Border
+            Grid.Row="1"
+            Width="400" Height="200"
+            Background="White"
+            CornerRadius="8"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center">
+            <StackPanel Spacing="20" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Button
+                    x:Name="BeginnerButton"
+                    Content="Początkujący"
+                    Width="200" Height="40"
+                    HorizontalContentAlignment="Center"
+                    VerticalContentAlignment="Center"
+                    Classes="main-button"/>
+                <Button
+                    x:Name="IntermediateButton"
+                    Content="Średnio zaawansowany"
+                    Width="200" Height="40"
+                    HorizontalContentAlignment="Center"
+                    VerticalContentAlignment="Center"
+                    Classes="main-button"/>
+                <Button
+                    x:Name="AdvancedButton"
+                    Content="Zaawansowany"
+                    Width="200" Height="40"
+                    HorizontalContentAlignment="Center"
+                    VerticalContentAlignment="Center"
+                    Classes="main-button"/>
+            </StackPanel>
+        </Border>
+
+        <!-- Przycisk Cofnij -->
+        <Button
+            x:Name="BackButton"
+            Grid.Row="2"
+            Content="Cofnij"
+            Width="90" Height="40"
+            HorizontalContentAlignment="Center"
+            VerticalContentAlignment="Center"
+            Background="Red"
+            Foreground="White"
+            HorizontalAlignment="Left"
+            Margin="10"/>
+    </Grid>
+</UserControl>

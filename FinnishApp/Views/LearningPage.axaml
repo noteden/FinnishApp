@@ -1,0 +1,49 @@
+<UserControl
+    xmlns="https://github.com/avaloniaui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    x:Class="FinnishApp.Views.LearningPage">
+
+    <Grid Background="#D1FAE5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Nagłówek -->
+        <TextBlock
+            Grid.Row="0"
+            Text="Nauka"
+            FontSize="24"
+            FontWeight="Bold"
+            HorizontalAlignment="Center"
+            Margin="0,20"/>
+
+        <!-- Białe pole z kategoriami -->
+        <Border
+            Grid.Row="1"
+            Width="300" Height="150"
+            Background="White"
+            CornerRadius="8"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center">
+            <StackPanel Spacing="20" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Button x:Name="VocabularyButton" Content="Słownictwo"    Width="140" Height="40" Classes="main-button"/>
+                <Button x:Name="GrammarButton" Content="Gramatyka"     Width="140" Height="40" Classes="main-button"/>
+            </StackPanel>
+        </Border>
+
+        <!-- Przycisk Cofnij -->
+        <Button
+            x:Name="BackButton"
+            Grid.Row="2"
+            Content="Cofnij"
+            Width="90" Height="40"
+            Background="Red"
+            Foreground="White"
+            HorizontalAlignment="Left"
+            HorizontalContentAlignment="Center"
+            VerticalContentAlignment="Center"
+            Margin="10"/>
+    </Grid>
+</UserControl>

@@ -6,6 +6,9 @@
         <entry key="FinnishApp/App.axaml" value="FinnishApp/FinnishApp.csproj" />
         <entry key="FinnishApp/MainWindow.axaml" value="FinnishApp/FinnishApp.csproj" />
         <entry key="FinnishApp/Styles/Styles.axaml" value="FinnishApp/FinnishApp.csproj" />
+        <entry key="FinnishApp/Views/ExercisesPage.axaml" value="FinnishApp/FinnishApp.csproj" />
+        <entry key="FinnishApp/Views/LearningPage.axaml" value="FinnishApp/FinnishApp.csproj" />
+        <entry key="FinnishApp/Views/MainMenuPage.axaml" value="FinnishApp/FinnishApp.csproj" />
         <entry key="FinnishApp/Views/MainWindow.axaml" value="FinnishApp/FinnishApp.csproj" />
         <entry key="FinnishApp/Views/WordsPage.axaml" value="FinnishApp/FinnishApp.csproj" />
       </map>

@@ -27,6 +27,15 @@ build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 [C:/Users/Aleks/RiderProjects/FinnishApp/FinnishApp/Styles/Styles.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
+[C:/Users/Aleks/RiderProjects/FinnishApp/FinnishApp/Views/ExercisesPage.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Aleks/RiderProjects/FinnishApp/FinnishApp/Views/LearningPage.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Aleks/RiderProjects/FinnishApp/FinnishApp/Views/MainMenuPage.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
 [C:/Users/Aleks/RiderProjects/FinnishApp/FinnishApp/Views/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 

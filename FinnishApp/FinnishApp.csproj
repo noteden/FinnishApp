@@ -1,38 +1,46 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
-        <OutputType>WinExe</OutputType>
         <TargetFramework>net9.0</TargetFramework>
+        <OutputType>WinExe</OutputType>
         <Nullable>enable</Nullable>
-        <BuiltInComInteropSupport>true</BuiltInComInteropSupport>
-        <ApplicationManifest>app.manifest</ApplicationManifest>
-        <AvaloniaUseCompiledBindingsByDefault>true</AvaloniaUseCompiledBindingsByDefault>
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Avalonia" Version="11.2.6"/>
-        <PackageReference Include="Avalonia.Desktop" Version="11.2.6"/>
-        <PackageReference Include="Avalonia.Themes.Fluent" Version="11.2.6"/>
-        <PackageReference Include="Avalonia.Fonts.Inter" Version="11.2.6"/>
-		<PackageReference Include="Avalonia.ReactiveUI" Version="11.2.6" />
-		<PackageReference Include="Avalonia.Themes.Fluent" Version="11.2.6" />
-        <!--Condition below is needed to remove Avalonia.Diagnostics package from build output in Release configuration.-->
-        <PackageReference Include="Avalonia.Diagnostics" Version="11.2.6">
-            <IncludeAssets Condition="'$(Configuration)' != 'Debug'">None</IncludeAssets>
-            <PrivateAssets Condition="'$(Configuration)' != 'Debug'">All</PrivateAssets>
-        </PackageReference>
-    </ItemGroup>
-
-    <ItemGroup>
         <AvaloniaResource Include="Styles\Styles.axaml" />
-        <None Include="Data\Words.json">
+        <None Include="Data\*.json">
             <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
     </ItemGroup>
 
-	<ItemGroup>
-	  <Compile Update="Views\MainWindow.axaml.cs">
-	    <DependentUpon>MainWindow.axaml</DependentUpon>
-	    <SubType>Code</SubType>
-	  </Compile>
-	</ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="Avalonia"                   Version="11.2.6" />
+        <PackageReference Include="Avalonia.ReactiveUI"        Version="11.2.6" />
+        <PackageReference Include="Avalonia.Themes.Fluent"     Version="11.2.6" />
+        <PackageReference Include="Avalonia.Controls.DataGrid" Version="11.2.6" />
+        <PackageReference Include="Avalonia.Desktop"           Version="11.2.6" />
+        <PackageReference Include="Avalonia.Fonts.Inter"       Version="11.2.6" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Views\Grammar\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Update="Views\Vocabulary\BeginnerCategoriesPage.axaml.cs">
+        <DependentUpon>BeginnerCategoriesPage.axaml</DependentUpon>
+        <SubType>Code</SubType>
+      </Compile>
+      <Compile Update="Views\Vocabulary\StudyPage.axaml.cs">
+        <DependentUpon>StudyPage.axaml</DependentUpon>
+        <SubType>Code</SubType>
+      </Compile>
+      <Compile Update="Views\Vocabulary\VocabularyPage.axaml.cs">
+        <DependentUpon>VocabularyPage.axaml</DependentUpon>
+        <SubType>Code</SubType>
+      </Compile>
+      <Compile Update="Views\FlashCards\FlashcardsPage.axaml.cs">
+        <DependentUpon>FlashcardsPage.axaml</DependentUpon>
+        <SubType>Code</SubType>
+      </Compile>
+    </ItemGroup>
 </Project>
