@@ -3,6 +3,8 @@ using Avalonia.Markup.Xaml;
 using System;
 using FinnishApp.ViewModels;
 using FinnishApp.Views;
+using FinnishApp.Views.Grammar;
+using FinnishApp.Views.RandomWord;
 using FinnishApp.Views.Tests;
 
 namespace FinnishApp.Views
@@ -39,12 +41,19 @@ namespace FinnishApp.Views
                 case LearningPage lp:
                     lp.VocabularyClicked    += () => ShowPage(new VocabularyPage());
                     lp.BackClicked     += () => ShowPage(new MainMenuPage());
+                    lp.GrammarClicked    += () => ShowPage(new GrammarPage());
                     break;
 
                 case ExercisesPage ep:
                     ep.FlashcardsClicked    += () => ShowPage(new FlashcardsPage());
                     ep.TestsClicked      += () => ShowPage(new TestsPage());
                     ep.BackClicked  += () => ShowPage(new MainMenuPage());
+                    ep.RandomWordClicked += () =>
+                    {
+                        var vm = new RandomWordViewModel();
+                        var page = new RandomWordPage { DataContext = vm };
+                        ShowPage(page);
+                    };
                     break;
                 
                 case VocabularyPage np:
@@ -66,6 +75,33 @@ namespace FinnishApp.Views
                     };
                     break;
                 
+                case GrammarPage gp:
+                    gp.BackClicked    += () => ShowPage(new LearningPage());
+                    gp.VerbsClicked += () =>
+                    {
+                        var page = new VerbsDeclPage();
+                        page.BackClicked        += () => ShowPage(new GrammarPage());
+                        ShowPage(page);
+                    };
+                    break;
+                
+                case VerbsDeclPage vdp:
+                    vdp.BackClicked += () => ShowPage(new GrammarPage()); 
+                    vdp.CategoryClicked += categoryName =>
+                    {
+                        // Tworzymy VM i ładowanie JSON
+                        var vm = new VerbsDeclensionViewModel(
+                            category: categoryName,
+                            fileName: $"{categoryName}.json"
+                        );
+                        vm.RequestBack += () => ShowPage(vdp);
+
+                        // Pokazujemy stronę z DataGrid
+                        var vsp = new VerbsDeclStudyPage { DataContext = vm };
+                        ShowPage(vsp);
+                    };
+                    break;
+                
                 case TestsPage tp:
                     tp.BackClicked    += () => ShowPage(new ExercisesPage());
                     tp.BeginnerClicked += () =>
@@ -80,7 +116,6 @@ namespace FinnishApp.Views
                     tbcp.BackClicked     += () => ShowPage(new FlashcardsPage());
                     tbcp.CategoryClicked += name =>
                     {
-                        // name to np. "Kolory"
                         var vm = new TestsPageViewModel(
                             category: name,
                             fileName: $"{name}.json"
@@ -109,7 +144,6 @@ namespace FinnishApp.Views
                     fbcp.BackClicked += () => ShowPage(new FlashcardsPage());
                     fbcp.CategoryClicked += categoryName =>
                     {
-                        // assume your JSON is "Data/{categoryName}.json"
                         var vm = new FlashcardsStudyViewModel(
                             categoryName,
                             $"{categoryName}.json"

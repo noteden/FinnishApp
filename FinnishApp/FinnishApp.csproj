@@ -22,10 +22,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Views\Grammar\" />
-    </ItemGroup>
-
-    <ItemGroup>
       <Compile Update="Views\Vocabulary\BeginnerCategoriesPage.axaml.cs">
         <DependentUpon>BeginnerCategoriesPage.axaml</DependentUpon>
         <SubType>Code</SubType>

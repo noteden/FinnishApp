@@ -34,10 +34,10 @@ namespace FinnishApp.ViewModels
 
         public void LoadCategory(string category)
         {
-            WindowTitle = $"Słówka: {category}";
+            string cleaned = category.TrimStart(' ', '-');
+            WindowTitle = $"Słówka: {cleaned}";
             WordPairs.Clear();
-
-            // Przyjmujemy, że nazwa pliku to dokładnie "{category}.json"
+            
             var fileName = $"{category}.json";
             var path     = Path.Combine(AppContext.BaseDirectory, "Data", fileName);
 

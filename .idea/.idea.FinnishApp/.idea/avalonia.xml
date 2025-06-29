@@ -6,10 +6,31 @@
         <entry key="FinnishApp/App.axaml" value="FinnishApp/FinnishApp.csproj" />
         <entry key="FinnishApp/MainWindow.axaml" value="FinnishApp/FinnishApp.csproj" />
         <entry key="FinnishApp/Styles/Styles.axaml" value="FinnishApp/FinnishApp.csproj" />
+        <entry key="FinnishApp/Views/BeginnerCategoriesPage.axaml" value="FinnishApp/FinnishApp.csproj" />
         <entry key="FinnishApp/Views/ExercisesPage.axaml" value="FinnishApp/FinnishApp.csproj" />
+        <entry key="FinnishApp/Views/FlashCards/FlashcardsBeginnerCategoriesPage.axaml" value="FinnishApp/FinnishApp.csproj" />
+        <entry key="FinnishApp/Views/Flashcards/FlashcardsBeginnerCategoriesPage.axaml" value="FinnishApp/FinnishApp.csproj" />
+        <entry key="FinnishApp/Views/Flashcards/FlashcardsPage.axaml" value="FinnishApp/FinnishApp.csproj" />
+        <entry key="FinnishApp/Views/Flashcards/FlashcardsStudyPage.axaml" value="FinnishApp/FinnishApp.csproj" />
+        <entry key="FinnishApp/Views/FlashcardsPage.axaml" value="FinnishApp/FinnishApp.csproj" />
+        <entry key="FinnishApp/Views/FlashcardsStudyPage.axaml" value="FinnishApp/FinnishApp.csproj" />
+        <entry key="FinnishApp/Views/Grammar/GrammarPage.axaml" value="FinnishApp/FinnishApp.csproj" />
+        <entry key="FinnishApp/Views/Grammar/VerbsDeclPage.axaml" value="FinnishApp/FinnishApp.csproj" />
+        <entry key="FinnishApp/Views/Grammar/VerbsDeclStudyPage.axaml" value="FinnishApp/FinnishApp.csproj" />
         <entry key="FinnishApp/Views/LearningPage.axaml" value="FinnishApp/FinnishApp.csproj" />
         <entry key="FinnishApp/Views/MainMenuPage.axaml" value="FinnishApp/FinnishApp.csproj" />
         <entry key="FinnishApp/Views/MainWindow.axaml" value="FinnishApp/FinnishApp.csproj" />
+        <entry key="FinnishApp/Views/NounsPage.axaml" value="FinnishApp/FinnishApp.csproj" />
+        <entry key="FinnishApp/Views/RandomWord/RandomWordPage.axaml" value="FinnishApp/FinnishApp.csproj" />
+        <entry key="FinnishApp/Views/StudyPage.axaml" value="FinnishApp/FinnishApp.csproj" />
+        <entry key="FinnishApp/Views/StudyWindow.axaml" value="FinnishApp/FinnishApp.csproj" />
+        <entry key="FinnishApp/Views/Tests/TestsBeginnerCategoriesPage.axaml" value="FinnishApp/FinnishApp.csproj" />
+        <entry key="FinnishApp/Views/Tests/TestsPage.axaml" value="FinnishApp/FinnishApp.csproj" />
+        <entry key="FinnishApp/Views/Tests/TestsStudyPage.axaml" value="FinnishApp/FinnishApp.csproj" />
+        <entry key="FinnishApp/Views/Vocabulary/BeginnerCategoriesPage.axaml" value="FinnishApp/FinnishApp.csproj" />
+        <entry key="FinnishApp/Views/Vocabulary/InflectionsWindow.axaml" value="FinnishApp/FinnishApp.csproj" />
+        <entry key="FinnishApp/Views/Vocabulary/StudyPage.axaml" value="FinnishApp/FinnishApp.csproj" />
+        <entry key="FinnishApp/Views/Vocabulary/VocabularyPage.axaml" value="FinnishApp/FinnishApp.csproj" />
         <entry key="FinnishApp/Views/WordsPage.axaml" value="FinnishApp/FinnishApp.csproj" />
       </map>
     </option>

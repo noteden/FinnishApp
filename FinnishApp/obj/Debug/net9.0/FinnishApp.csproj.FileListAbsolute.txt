@@ -1,5 +1,17 @@
+C:\Users\Aleks\RiderProjects\FinnishApp\FinnishApp\obj\Debug\net9.0\FinnishApp.csproj.AssemblyReference.cache
+C:\Users\Aleks\RiderProjects\FinnishApp\FinnishApp\obj\Debug\net9.0\Avalonia\Resources.Inputs.cache
+C:\Users\Aleks\RiderProjects\FinnishApp\FinnishApp\obj\Debug\net9.0\Avalonia\resources
+C:\Users\Aleks\RiderProjects\FinnishApp\FinnishApp\obj\Debug\net9.0\FinnishApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aleks\RiderProjects\FinnishApp\FinnishApp\obj\Debug\net9.0\FinnishApp.AssemblyInfoInputs.cache
+C:\Users\Aleks\RiderProjects\FinnishApp\FinnishApp\obj\Debug\net9.0\FinnishApp.AssemblyInfo.cs
+C:\Users\Aleks\RiderProjects\FinnishApp\FinnishApp\obj\Debug\net9.0\FinnishApp.csproj.CoreCompileInputs.cache
+C:\Users\Aleks\RiderProjects\FinnishApp\FinnishApp\obj\Debug\net9.0\FinnishApp.sourcelink.json
+C:\Users\Aleks\RiderProjects\FinnishApp\FinnishApp\obj\Debug\net9.0\Avalonia\FinnishApp.dll
+C:\Users\Aleks\RiderProjects\FinnishApp\FinnishApp\obj\Debug\net9.0\Avalonia\FinnishApp.pdb
+C:\Users\Aleks\RiderProjects\FinnishApp\FinnishApp\obj\Debug\net9.0\refint\Avalonia\FinnishApp.dll
 C:\Users\Aleks\RiderProjects\FinnishApp\FinnishApp\bin\Debug\net9.0\FinnishApp.exe
-C:\Users\Aleks\RiderProjects\FinnishApp\FinnishApp\bin\Debug\net9.0\Data\Words.json
+C:\Users\Aleks\RiderProjects\FinnishApp\FinnishApp\bin\Debug\net9.0\Data\ - Fińskie zapożyczenia.json
+C:\Users\Aleks\RiderProjects\FinnishApp\FinnishApp\bin\Debug\net9.0\Data\ - Kolory.json
 C:\Users\Aleks\RiderProjects\FinnishApp\FinnishApp\bin\Debug\net9.0\FinnishApp.deps.json
 C:\Users\Aleks\RiderProjects\FinnishApp\FinnishApp\bin\Debug\net9.0\FinnishApp.runtimeconfig.json
 C:\Users\Aleks\RiderProjects\FinnishApp\FinnishApp\bin\Debug\net9.0\FinnishApp.dll
@@ -54,19 +66,8 @@ C:\Users\Aleks\RiderProjects\FinnishApp\FinnishApp\bin\Debug\net9.0\runtimes\osx
 C:\Users\Aleks\RiderProjects\FinnishApp\FinnishApp\bin\Debug\net9.0\runtimes\win-arm64\native\libSkiaSharp.dll
 C:\Users\Aleks\RiderProjects\FinnishApp\FinnishApp\bin\Debug\net9.0\runtimes\win-x64\native\libSkiaSharp.dll
 C:\Users\Aleks\RiderProjects\FinnishApp\FinnishApp\bin\Debug\net9.0\runtimes\win-x86\native\libSkiaSharp.dll
-C:\Users\Aleks\RiderProjects\FinnishApp\FinnishApp\obj\Debug\net9.0\FinnishApp.csproj.AssemblyReference.cache
-C:\Users\Aleks\RiderProjects\FinnishApp\FinnishApp\obj\Debug\net9.0\Avalonia\Resources.Inputs.cache
-C:\Users\Aleks\RiderProjects\FinnishApp\FinnishApp\obj\Debug\net9.0\Avalonia\resources
-C:\Users\Aleks\RiderProjects\FinnishApp\FinnishApp\obj\Debug\net9.0\FinnishApp.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Aleks\RiderProjects\FinnishApp\FinnishApp\obj\Debug\net9.0\FinnishApp.AssemblyInfoInputs.cache
-C:\Users\Aleks\RiderProjects\FinnishApp\FinnishApp\obj\Debug\net9.0\FinnishApp.AssemblyInfo.cs
-C:\Users\Aleks\RiderProjects\FinnishApp\FinnishApp\obj\Debug\net9.0\FinnishApp.csproj.CoreCompileInputs.cache
-C:\Users\Aleks\RiderProjects\FinnishApp\FinnishApp\obj\Debug\net9.0\FinnishApp.sourcelink.json
-C:\Users\Aleks\RiderProjects\FinnishApp\FinnishApp\obj\Debug\net9.0\Avalonia\FinnishApp.dll
-C:\Users\Aleks\RiderProjects\FinnishApp\FinnishApp\obj\Debug\net9.0\Avalonia\FinnishApp.pdb
-C:\Users\Aleks\RiderProjects\FinnishApp\FinnishApp\obj\Debug\net9.0\refint\Avalonia\FinnishApp.dll
 C:\Users\Aleks\RiderProjects\FinnishApp\FinnishApp\obj\Debug\net9.0\FinnishApp.csproj.Up2Date
 C:\Users\Aleks\RiderProjects\FinnishApp\FinnishApp\obj\Debug\net9.0\FinnishApp.genruntimeconfig.cache
 C:\Users\Aleks\RiderProjects\FinnishApp\FinnishApp\obj\Debug\net9.0\ref\FinnishApp.dll
-C:\Users\Aleks\RiderProjects\FinnishApp\FinnishApp\bin\Debug\net9.0\Data\ - Kolory.json
-C:\Users\Aleks\RiderProjects\FinnishApp\FinnishApp\bin\Debug\net9.0\Data\ - Fińskie zapożyczenia.json
+C:\Users\Aleks\RiderProjects\FinnishApp\FinnishApp\bin\Debug\net9.0\Data\ - Liczby.json
+C:\Users\Aleks\RiderProjects\FinnishApp\FinnishApp\bin\Debug\net9.0\Data\1. Typy czasowników.json

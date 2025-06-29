@@ -1,5 +1,80 @@
 [
-  { "Polish": "czerwony",  "Finnish": "punainen" },
-  { "Polish": "zielony",   "Finnish": "vihreä" },
+	{ 
+  		"Polish": "czerwony", 
+		"Finnish": "punainen", 
+		"InflectionsSingular": {
+			"Nominatiivi:": "punainen", 
+			"Partitiivi:": "punaista", 
+			"Genetiivi:":  "punaisen",
+			"Akkusatiivi:": "punaisen",
+			"Inessiivi:": "punaisessa",
+			"Elatiivi:": "punaisesta",
+			"Illatiivi:": "punaiseen",
+			"Adessiivi:": "punaisella",
+			"Ablatiivi:": "punaiselta",
+			"Allatiivi:": "punaiselle",
+			"Essiivi:": "punaisena",
+			"Translatiivi:": "punaiseksi",
+			"Abessiivi:": "punaisetta",
+			"Instruktiivi:": "",
+			"Komitatiivi:": ""
+		}, 
+		"InflectionsPlural": {
+			"Nominatiivi:": "punaiset", 
+			"Partitiivi:": "punaisia", 
+			"Genetiivi:":  "punaisten, punaisien",
+			"Akkusatiivi:": "punaisia",
+			"Inessiivi:": "punaisissa",
+			"Elatiivi:": "punaisista",
+			"Illatiivi:": "punaisiin",
+			"Adessiivi:": "punaisilla",
+			"Ablatiivi:": "punaisilta",
+			"Allatiivi:": "punaisille",
+			"Essiivi:": "punaisina",
+			"Translatiivi:": "punaisiksi",
+			"Abessiivi:": "punaisitta",
+			"Instruktiivi:": "punaisin",
+			"Komitatiivi:": "punaisine"
+		}
+	},	
+
+	{
+		"Polish": "zielony",
+		"Finnish": "vihreä",
+		"InflectionsSingular": {
+			"Nominatiivi:": "vihreä",
+			"Partitiivi:": "vihreää",
+			"Genetiivi:":  "vihreän",
+			"Akkusatiivi:": "vihreän",
+			"Inessiivi:": "vihreässä",
+			"Elatiivi:": "vihreästä",
+			"Illatiivi:": "vihreään",
+			"Adessiivi:": "vihreällä",
+			"Ablatiivi:": "vihreältä",
+			"Allatiivi:": "vihreälle",
+			"Essiivi:": "vihreänä",
+			"Translatiivi:": "vihreäksi",
+			"Abessiivi:": "vihreättä",
+			"Instruktiivi:": "",
+			"Komitatiivi:": ""
+		},
+		"InflectionsPlural": {
+			"Nominatiivi:": "vihreät",
+			"Partitiivi:": "vihreitä",
+			"Genetiivi:":  "vihreiden, vihreitten",
+			"Akkusatiivi:": "vihreät",
+			"Inessiivi:": "vihreissä",
+			"Elatiivi:": "vihreistä",
+			"Illatiivi:": "vihreisiin, vihreihin",
+			"Adessiivi:": "vihreillä",
+			"Ablatiivi:": "vihreiltä",
+			"Allatiivi:": "vihreille",
+			"Essiivi:": "vihreinä",
+			"Translatiivi:": "vihreiksi",
+			"Abessiivi:": "vihreittä",
+			"Instruktiivi:": "vihrein",
+			"Komitatiivi:": "vihreine"
+		}
+	},
   { "Polish": "niebieski", "Finnish": "sininen" }
 ]

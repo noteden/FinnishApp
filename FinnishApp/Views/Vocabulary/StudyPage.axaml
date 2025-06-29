@@ -4,7 +4,8 @@
     xmlns:dg="clr-namespace:Avalonia.Controls;assembly=Avalonia.Controls.DataGrid"
     xmlns:vm="clr-namespace:FinnishApp.ViewModels"
     x:Class="FinnishApp.Views.StudyPage"
-    x:DataType="vm:StudyPageViewModel">
+    x:DataType="vm:StudyPageViewModel"
+    Background="#D1FAE5">
 
     <Grid Margin="10" Background="#D1FAE5">
         <Grid.RowDefinitions>
@@ -35,7 +36,7 @@
                 IsReadOnly="True"
                 Width="400"
                 HorizontalAlignment="Center"
-                MaxHeight="300"
+                CellPointerPressed="OnCellPointerPressed"
                 ColumnWidth="*">
                 <dg:DataGrid.Columns>
                     <dg:DataGridTextColumn Header="Polski"  Binding="{Binding Polish}" />

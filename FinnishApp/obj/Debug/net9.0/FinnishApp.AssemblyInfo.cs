@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FinnishApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+342056d0f0e2c4b05921a789e42ed6781ba0c595")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+97c18d15875ce18956c57b6b3467e923f9969dbc")]
 [assembly: System.Reflection.AssemblyProductAttribute("FinnishApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FinnishApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

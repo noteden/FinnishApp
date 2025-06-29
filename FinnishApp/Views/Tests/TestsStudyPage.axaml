@@ -1,9 +1,11 @@
 <UserControl
     xmlns="https://github.com/avaloniaui"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:ai="clr-namespace:Avalonia.Input;assembly=Avalonia.Base"
     xmlns:vm="clr-namespace:FinnishApp.ViewModels"
     x:Class="FinnishApp.Views.TestsStudyPage"
-    x:DataType="vm:TestsPageViewModel">
+    x:DataType="vm:TestsPageViewModel"
+    Background="#D1FAE5">
 
     <Grid Background="#D1FAE5" Margin="10">
         <Grid.RowDefinitions>
@@ -12,7 +14,7 @@
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
-        <!-- Nagłówek: nazwa kategorii -->
+
         <TextBlock
             Grid.Row="0"
             Text="{Binding Title}"
@@ -21,7 +23,7 @@
             HorizontalAlignment="Center"
             Margin="0,0,0,10"/>
 
-        <!-- Quiz wpisywania -->
+
         <Border
             Grid.Row="1"
             Background="White"
@@ -31,22 +33,38 @@
             VerticalAlignment="Center"
             Width="350">
             <StackPanel Spacing="12">
-                <!-- słówko po polsku -->
-                <TextBlock Text="{Binding CurrentPolish}" FontSize="24" HorizontalAlignment="Center"/>
 
-                <!-- pole na wpisanie fińskiego -->
+                <TextBlock 
+                    Text="{Binding CurrentPolish}" 
+                    FontSize="24" 
+                    HorizontalAlignment="Center"/>
+
+
                 <TextBox
+                    Name="AnswerBox"
                     Watermark="Wpisz po fińsku..."
                     Text="{Binding UserAnswer, UpdateSourceTrigger=PropertyChanged}"
-                    FontSize="16"/>
+                    FontSize="16">
+                    <TextBox.KeyBindings>
+                        <ai:KeyBinding 
+                            Gesture="Enter"
+                            Command="{Binding CheckAnswerCommand}" />
+                    </TextBox.KeyBindings>
+                </TextBox>
 
-                <!-- przycisk sprawdzenia -->
+
                 <Button
                     Content="Sprawdź"
                     Command="{Binding CheckAnswerCommand}"
                     IsEnabled="{Binding IsAnswerNotEmpty}"/>
 
-                <!-- wyświetlenie postępu -->
+                <TextBlock
+                    Text="{Binding ErrorMessage}"
+                    Foreground="Red"
+                    FontSize="14"
+                    IsVisible="{Binding HasError}"
+                    Margin="0,4,0,0"/>
+                
                 <TextBlock
                     Text="{Binding ProgressDisplay}"
                     HorizontalAlignment="Right"/>

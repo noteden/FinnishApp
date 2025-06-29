@@ -22,7 +22,7 @@
         <!-- Białe pole z opcjami -->
         <Border
             Grid.Row="1"
-            Width="300" Height="150"
+            Width="400" Height="200"
             Background="White"
             CornerRadius="8"
             HorizontalAlignment="Center"
@@ -36,6 +36,11 @@
                 <Button
                     x:Name="TestsButton"
                     Content="Testy"
+                    Width="140" Height="40"
+                    Classes="main-button"/>
+                <Button
+                    x:Name="RandomWordButton"
+                    Content="Losowe słówko"
                     Width="140" Height="40"
                     Classes="main-button"/>
             </StackPanel>

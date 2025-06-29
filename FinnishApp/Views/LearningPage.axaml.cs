@@ -9,6 +9,7 @@ namespace FinnishApp.Views
     {
         public event Action? BackClicked;
         public event Action? VocabularyClicked;
+        public event Action? GrammarClicked; 
 
         public LearningPage()
         {
@@ -19,6 +20,9 @@ namespace FinnishApp.Views
 
             this.FindControl<Button>("VocabularyButton")
                 .Click += (_, __) => VocabularyClicked?.Invoke();
+            
+            this.FindControl<Button>("GrammarButton")
+                .Click += (_,__) => GrammarClicked?.Invoke();
         }
 
         private void InitializeComponent() => AvaloniaXamlLoader.Load(this);

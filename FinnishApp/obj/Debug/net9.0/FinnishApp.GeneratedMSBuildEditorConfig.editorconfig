@@ -39,6 +39,15 @@ build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 [C:/Users/Aleks/RiderProjects/FinnishApp/FinnishApp/Views/Flashcards/FlashcardsStudyPage.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
+[C:/Users/Aleks/RiderProjects/FinnishApp/FinnishApp/Views/Grammar/GrammarPage.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Aleks/RiderProjects/FinnishApp/FinnishApp/Views/Grammar/VerbsDeclPage.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Aleks/RiderProjects/FinnishApp/FinnishApp/Views/Grammar/VerbsDeclStudyPage.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
 [C:/Users/Aleks/RiderProjects/FinnishApp/FinnishApp/Views/LearningPage.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
@@ -46,6 +55,9 @@ build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
 [C:/Users/Aleks/RiderProjects/FinnishApp/FinnishApp/Views/MainWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Aleks/RiderProjects/FinnishApp/FinnishApp/Views/RandomWord/RandomWordPage.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
 [C:/Users/Aleks/RiderProjects/FinnishApp/FinnishApp/Views/Tests/TestsBeginnerCategoriesPage.axaml]
@@ -58,6 +70,9 @@ build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
 [C:/Users/Aleks/RiderProjects/FinnishApp/FinnishApp/Views/Vocabulary/BeginnerCategoriesPage.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Aleks/RiderProjects/FinnishApp/FinnishApp/Views/Vocabulary/InflectionsWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
 [C:/Users/Aleks/RiderProjects/FinnishApp/FinnishApp/Views/Vocabulary/StudyPage.axaml]

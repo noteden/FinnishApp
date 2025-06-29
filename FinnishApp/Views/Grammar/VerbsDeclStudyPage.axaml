@@ -1,0 +1,59 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:vm="clr-namespace:FinnishApp.ViewModels"
+             xmlns:models="clr-namespace:FinnishApp.Models"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="FinnishApp.Views.Grammar.VerbsDeclStudyPage"
+             x:DataType="vm:VerbsDeclensionViewModel">
+  <Grid Background="#E0F2E9">
+    <Grid.RowDefinitions>
+      <RowDefinition Height="Auto"/>  <!-- Nagłówek -->
+      <RowDefinition Height="*"/>     <!-- Content -->
+      <RowDefinition Height="Auto"/>  <!-- Cofnij -->
+    </Grid.RowDefinitions>
+    
+    <TextBlock
+      Grid.Row="0"
+      Text="{Binding }"
+      FontSize="24"
+      FontWeight="Bold"
+      HorizontalAlignment="Center"
+      Margin="0,20"/>
+    
+    <Border
+      Grid.Row="1"
+      Background="White"
+      CornerRadius="8"
+      Padding="10"
+      Width="400"
+      Height="300"
+      HorizontalAlignment="Center"
+      VerticalAlignment="Center">
+      <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <ItemsControl ItemsSource="{Binding Paragraphs}">
+          <ItemsControl.ItemTemplate>
+            <DataTemplate>
+              <TextBlock 
+                Text="{Binding}"
+                TextWrapping="Wrap"
+                Margin="0,0,0,10"/>
+            </DataTemplate>
+          </ItemsControl.ItemTemplate>
+        </ItemsControl>
+      </ScrollViewer>
+    </Border>
+
+        <!-- 3) Przycisk Cofnij -->
+        <Button
+            Grid.Row="2"
+            Content="Cofnij"
+            Command="{Binding BackCommand}"
+            Background="Red"
+            Foreground="White"
+            Width="80"
+            HorizontalAlignment="Left"
+            Margin="10"/>
+    </Grid>
+</UserControl>
